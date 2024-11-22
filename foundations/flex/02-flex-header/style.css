@@ -2,8 +2,8 @@
   font-family: monospace;
   background: papayawhip;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 5px;
 }
 
@@ -30,10 +30,16 @@ a {
 }
 
 .left-links {
-  align-self: flex-start;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
 }
 
 .right-links {
-  align-self: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 5px;
 }
 
