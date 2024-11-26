@@ -2,9 +2,8 @@
   font-family: monospace;
   background: papayawhip;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
-  gap: 5px;
 }
 
 .logo {
@@ -32,18 +31,7 @@ a {
   text-decoration: none;
 }
 
-.left-links {
+ul {
   display: flex;
-  flex: auto;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-}
-
-.right-links {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 5px;
 }
 
