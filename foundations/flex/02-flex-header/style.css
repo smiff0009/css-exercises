@@ -33,7 +33,7 @@ a {
 
 .left-links {
   display: flex;
-  flex: 1;
+  flex: auto;
   justify-content: center;
   align-items: center;
   gap: 5px;
