@@ -54,7 +54,7 @@ ul {
 
 .left {
   display: flex;
-  flex: auto;
+  flex-wrap: nowrap;
 }
 
 .right {
