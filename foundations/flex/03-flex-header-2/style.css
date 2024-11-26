@@ -13,7 +13,6 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
-  align-items: center;
   padding: 8px;
   justify-content: space-between;
   gap: 16px;
@@ -50,14 +49,14 @@ a {
 
 ul {
   list-style-type: none;
+  display:flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
 }
 
-.left {
+.left, .right {
   display: flex;
-  flex-wrap: nowrap;
-}
-
-.right {
-  display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
 }
